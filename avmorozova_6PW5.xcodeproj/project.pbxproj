@@ -15,6 +15,8 @@
 		5DF1434F273B0F06004835F9 /* ArticleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1434E273B0F06004835F9 /* ArticleModel.swift */; };
 		5DF14351273B1159004835F9 /* ArticleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF14350273B1159004835F9 /* ArticleTableViewCell.swift */; };
 		5DF14353273B139B004835F9 /* ArticleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF14352273B139B004835F9 /* ArticleManager.swift */; };
+		5DF96ED3273BF3C60057B237 /* ArticlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF96ED2273BF3C60057B237 /* ArticlePage.swift */; };
+		5DF96ED5273BF4910057B237 /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF96ED4273BF4910057B237 /* ImageContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		5DF1434E273B0F06004835F9 /* ArticleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleModel.swift; sourceTree = "<group>"; };
 		5DF14350273B1159004835F9 /* ArticleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableViewCell.swift; sourceTree = "<group>"; };
 		5DF14352273B139B004835F9 /* ArticleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleManager.swift; sourceTree = "<group>"; };
+		5DF96ED2273BF3C60057B237 /* ArticlePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePage.swift; sourceTree = "<group>"; };
+		5DF96ED4273BF4910057B237 /* ImageContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 			children = (
 				5DF1434E273B0F06004835F9 /* ArticleModel.swift */,
 				5DF14352273B139B004835F9 /* ArticleManager.swift */,
+				5DF96ED2273BF3C60057B237 /* ArticlePage.swift */,
+				5DF96ED4273BF4910057B237 /* ImageContainer.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -167,9 +173,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5DF14351273B1159004835F9 /* ArticleTableViewCell.swift in Sources */,
+				5DF96ED3273BF3C60057B237 /* ArticlePage.swift in Sources */,
 				5DF1433C273AA591004835F9 /* ArticleViewController.swift in Sources */,
 				5DF14338273AA591004835F9 /* AppDelegate.swift in Sources */,
 				5DF1434F273B0F06004835F9 /* ArticleModel.swift in Sources */,
+				5DF96ED5273BF4910057B237 /* ImageContainer.swift in Sources */,
 				5DF14353273B139B004835F9 /* ArticleManager.swift in Sources */,
 				5DF1433A273AA591004835F9 /* SceneDelegate.swift in Sources */,
 			);
