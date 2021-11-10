@@ -24,7 +24,7 @@ class ArticleViewController: UIViewController {
 
 extension ArticleViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        guard let articleCount = articleManager?.articles.count else { return 0 }
+        guard let articleCount = articleManager?.Articles?.count else { return 0 }
         
         return articleCount
     }
