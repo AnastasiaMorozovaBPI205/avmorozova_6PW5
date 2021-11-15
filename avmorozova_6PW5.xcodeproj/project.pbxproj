@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5DA41F15273BFD3000D492B5 /* UIViewPinExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DA41F14273BFD3000D492B5 /* UIViewPinExtension.swift */; };
 		5DF14338273AA591004835F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF14337273AA591004835F9 /* AppDelegate.swift */; };
 		5DF1433A273AA591004835F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF14339273AA591004835F9 /* SceneDelegate.swift */; };
 		5DF1433C273AA591004835F9 /* ArticleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DF1433B273AA591004835F9 /* ArticleViewController.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DA41F14273BFD3000D492B5 /* UIViewPinExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewPinExtension.swift; sourceTree = "<group>"; };
 		5DF14334273AA591004835F9 /* avmorozova_6PW5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = avmorozova_6PW5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF14337273AA591004835F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DF14339273AA591004835F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5DF14352273B139B004835F9 /* ArticleManager.swift */,
 				5DF96ED2273BF3C60057B237 /* ArticlePage.swift */,
 				5DF96ED4273BF4910057B237 /* ImageContainer.swift */,
+				5DA41F14273BFD3000D492B5 /* UIViewPinExtension.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 				5DF14351273B1159004835F9 /* ArticleTableViewCell.swift in Sources */,
 				5DF96ED3273BF3C60057B237 /* ArticlePage.swift in Sources */,
 				5DF1433C273AA591004835F9 /* ArticleViewController.swift in Sources */,
+				5DA41F15273BFD3000D492B5 /* UIViewPinExtension.swift in Sources */,
 				5DF14338273AA591004835F9 /* AppDelegate.swift in Sources */,
 				5DF1434F273B0F06004835F9 /* ArticleModel.swift in Sources */,
 				5DF96ED5273BF4910057B237 /* ImageContainer.swift in Sources */,

@@ -8,7 +8,15 @@
 import UIKit
 
 class ArticleManager {
-    private var articles: [ArticleModel]? = []
+    var renewingDelegate: RenewingDelegate?
+    
+    var articlePage: ArticlePage?
+    
+    private var articles: [ArticleModel]? {
+        didSet {
+            renewingDelegate?.renew()
+        }
+    }
     
     public var Articles: [ArticleModel]? {
         get {
@@ -20,12 +28,13 @@ class ArticleManager {
         }
     }
     
+    func getNewArticles() {
+        fetchNews()
+    }
     
     private func getURL(_ rubric: Int, _ pageIndex: Int) -> URL? {
         URL(string: "https://news.myseldon.com/api/Section?rubricId=\(rubric)&pageSize=8&pageIndex=\(pageIndex)")
     }
-    
-    var articlePage: ArticlePage?
     
     private func fetchNews() {
         guard let url = getURL(4, 1) else { return }
